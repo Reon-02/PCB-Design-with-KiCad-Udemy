@@ -60,7 +60,7 @@ The PCB was designed as a compact torch-shaped board with an integrated battery 
 
 The Interactive HTML BOM was generated using the **InteractiveHtmlBom** tool.
 
-**[View Interactive BOM](./BOM/Led_Torch_iBOM.html)**
+**[View Interactive BOM](./BOM/Led_Torch_ibom.html)**
 
 The interactive BOM provides:
 
