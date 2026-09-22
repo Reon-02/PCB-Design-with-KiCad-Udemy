@@ -1,0 +1,13 @@
+# KiCad temporary / lock files
+*.lck
+~*
+
+# KiCad backup files
+*.bak
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
