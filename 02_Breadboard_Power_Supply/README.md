@@ -149,7 +149,7 @@ The PCB was designed as a compact through-hole board with the regulators, connec
 
 An Interactive HTML BOM was generated using **InteractiveHtmlBom**.
 
-[View Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/02_Bread_Power_Supply/BOM/Breadboard_Power_Supply_ibom.html)
+[View Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/02_Breadboard_Power_Supply/BOM/Breadboard_Power_Supply_ibom.html)
 
 The interactive BOM provides:
 
