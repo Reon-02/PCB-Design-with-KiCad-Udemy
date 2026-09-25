@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a solar power supply PCB designed as part of the **PCB Design with KiCad - Updated for KiCad 9** Udemy course.
+This project is part of the **Solar Power Supply** section of the **PCB Design with KiCad - Updated for KiCad 9** Udemy course.
 
 The circuit is designed to accept power from a solar source and provide a regulated output using a boost converter based on the **AP3015AKTR-G1**.
 
@@ -108,7 +108,7 @@ The PCB was designed using KiCad with the components arranged for a compact sola
 
 An Interactive HTML BOM was generated using **InteractiveHtmlBom**.
 
-**[Open Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/03_Solar_Power_Supply/BOM/Solar%20Power%20Supply_ibom.html)**
+[Open Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/03_Solar_Power_Supply/BOM/Solar%20Power%20Supply_ibom.html)
 
 The Interactive BOM provides:
 
