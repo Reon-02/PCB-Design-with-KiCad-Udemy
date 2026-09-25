@@ -15,72 +15,34 @@ The PCB includes voltage regulation, a power indicator LED, output selection, br
 - 12 V DC input
 - Regulated 5 V output using LM7805
 - Regulated 3.3 V output using LM317
-- Power indicator LED
-- Output voltage selection
-- Breadboard output connectors
-- Jumper-wire output terminals
-- Through-hole component design
-- Custom PCB layout
+- Selectable output connectors
 - Ground plane
-- Design Rule Check (DRC)
+- Custom PCB layout
+- Through-hole component design
 - Interactive HTML BOM
 - Gerber generation and verification
-- KiCad 3D visualization
 
 ---
 
 ## Working Principle
 
-The 12 V DC input is supplied to the PCB through a barrel jack. The input is then distributed to two regulator sections to generate the required output voltages.
+The board accepts a 12 V DC input through the barrel jack. The input power is distributed to the two voltage regulation sections to generate regulated 5 V and 3.3 V outputs.
 
 ### 12 V to 5 V Regulation
 
-The 12 V input is supplied through the power switch to the **LM7805** voltage regulator.
-
-The LM7805 regulates the input voltage and provides a regulated **5 V output**.
-
-Input and output capacitors are included for filtering and regulator stability.
-
-```text
-12 V DC Input
-      │
-      ▼
- Power Switch
-      │
-      ▼
-    LM7805
-      │
-      ▼
-     5 V
-```
+The 12 V input is supplied to the LM7805 voltage regulator through the power switch. The LM7805 regulates the input voltage to provide a stable 5 V output. Input and output capacitors are used for filtering and regulator stability.
 
 ### 12 V to 3.3 V Regulation
 
-The 12 V input is also supplied to the **LM317** adjustable voltage regulator.
-
-The resistor network connected to the LM317 adjustment circuit sets the regulator output to approximately **3.3 V**.
-
-```text
-12 V DC Input
-      │
-      ▼
-    LM317
-      │
-      ▼
- Resistor Network
-      │
-      ▼
-    3.3 V
-```
+The 12 V input is also supplied to the LM317 adjustable voltage regulator. A resistor network connected to the adjustment circuit sets the regulator output to approximately 3.3 V.
 
 ### Power Indicator
 
-An LED with a current-limiting resistor is used as a power indicator. The LED indicates that the board is receiving power.
+An LED with a current-limiting resistor is used as a power indicator. The LED turns on when the board is powered.
 
-### Output Selection
+### Output Connections
 
-The regulated outputs are connected to output selector connectors and screw terminals, allowing the required voltage to be supplied to a breadboard or external circuit.
-
+The regulated 5 V and 3.3 V outputs are made available through the output connectors and screw terminals. These connections allow the required supply voltage to be provided to a breadboard or external circuit.
 ---
 
 ## Schematic
@@ -270,21 +232,13 @@ Through this project, I practiced:
 
 - Schematic capture
 - Voltage regulator circuit design
-- Component selection
-- Footprint assignment
+- Component and footprint selection
 - Through-hole PCB layout
-- PCB component placement
-- PCB routing
-- Ground plane creation
-- Silkscreen placement
-- Design Rule Checking
+- PCB routing and ground plane creation
+- Design Rule Checking (DRC)
 - Interactive BOM generation
-- Gerber generation
-- Gerber verification
-- KiCad 3D visualization
-- Datasheet reference
+- Gerber generation and verification
 - Preparing PCB files for manufacturing
-
 ---
 
 ## Course
