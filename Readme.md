@@ -1,10 +1,18 @@
 # PCB Design with KiCad — Udemy Course
 
-This repository contains the PCB designs and supporting documentation created while completing the Udemy course:
+This repository contains the PCB designs, schematics, BOMs, manufacturing files, and supporting documentation created while completing the **PCB Design with KiCad - Updated for KiCad 9** Udemy course.
 
-**[PCB Design with KiCad - Updated for KiCad 9](https://www.udemy.com/share/105YR03@hdEVWNpVydDwXK-DHMVmjIG6j6jP2o1doZVhvYaCLZwN9b4QRBgg-SJO-xgzQPG_Kw==/)**
+The projects were developed as part of my practical learning process to gain hands-on experience in schematic capture, component selection, PCB layout, routing, design verification, and preparation of PCB manufacturing files.
 
-The projects were developed as part of my practical learning process to gain hands-on experience with schematic design, PCB layout, routing, component selection, design verification, and preparation of manufacturing files.
+---
+
+## Course
+
+**PCB Design with KiCad - Updated for KiCad 9**
+
+**Platform:** Udemy
+
+[View Course](https://www.udemy.com/share/105YR03@hdEVWNpVydDwXK-DHMVmjIG6j6jP2o1doZVhvYaCLZwN9b4QRBgg-SJO-xgzQPG_Kw==/)
 
 ---
 
@@ -15,7 +23,7 @@ The projects were developed as part of my practical learning process to gain han
 | 01 | [LED Torch](./01_LED_Torch/) | Completed |
 | 02 | [Breadboard Power Supply](./02_Breadboard_Power_Supply/) | Completed |
 | 03 | [Solar Power Supply](./03_Solar_Power_Supply/) | Completed |
-| 04 | [MCU Data Logger](./04_MCU_Data_Logger/) | Completed |
+| 04 | [MCU Data Logger](./04_MCU_Datalogger/) | Completed |
 
 ---
 
@@ -26,11 +34,11 @@ The projects were developed as part of my practical learning process to gain han
 - Footprint Assignment
 - PCB Layout
 - PCB Routing
-- Ground Planes
+- Ground Plane Creation
 - Design Rule Checking (DRC)
-- Bill of Materials (BOM) Preparation
+- Interactive BOM Generation
 - Datasheet Reference
-- Gerber Generation
+- Gerber Generation and Verification
 - PCB 3D Visualization
 - Manufacturing Preparation
 - Git & GitHub
@@ -56,34 +64,29 @@ PCB Design with KiCad-Udemy/
 │   ├── README.md
 │   ├── KiCad/
 │   ├── BOM/
-│   ├── Datasheets/
 │   ├── Gerbers/
-│   ├── Images/
-│   └── Documentation/
+│   └── Images/
 │
 ├── 02_Breadboard_Power_Supply/
 │   ├── README.md
-│   ├── KiCad/
 │   ├── BOM/
 │   ├── Datasheets/
 │   ├── Gerbers/
 │   ├── Images/
-│   └── Documentation/
+│   └── KiCad/
 │
 ├── 03_Solar_Power_Supply/
 │   ├── README.md
-│   ├── KiCad/
 │   ├── BOM/
 │   ├── Datasheets/
 │   ├── Gerbers/
-│   ├── Images/
-│   └── Documentation/
+│   └── Images/
 │
-└── 04_MCU_Data_Logger/
+└── 04_MCU_Datalogger/
     ├── README.md
-    ├── KiCad/
     ├── BOM/
     ├── Datasheets/
     ├── Gerbers/
     ├── Images/
-    └── Documentation/
+    ├── Kicad_2layer/
+    └── Kicad_4layer/
