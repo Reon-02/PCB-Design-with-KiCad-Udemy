@@ -23,10 +23,9 @@ The PCB includes voltage regulation, a power indicator LED, output selection, br
 - Gerber generation and verification
 
 ---
-
 ## Working Principle
 
-The board accepts a 12 V DC input through the barrel jack. The input power is distributed to the two voltage regulation sections to generate regulated 5 V and 3.3 V outputs.
+The board accepts a 12 V DC input through the barrel jack. The input power is distributed to two voltage regulation sections to generate regulated 5 V and 3.3 V outputs.
 
 ### 12 V to 5 V Regulation
 
@@ -40,7 +39,8 @@ The 12 V input is also supplied to the LM317 adjustable voltage regulator. A res
 
 An LED with a current-limiting resistor is used as a power indicator. The LED turns on when the board is powered.
 
-The regulated 5 V and 3.3 V outputs are then made available through dedicated connectors and screw terminals for connection to a breadboard or external circuit.
+The regulated 5 V and 3.3 V outputs are made available through dedicated connectors and screw terminals for connection to a breadboard or external circuit.
+
 ---
 
 ## Schematic
