@@ -142,11 +142,7 @@ The relevant component datasheets used during the design are included in the `Da
 
 ## KiCad Project Files
 
-The project contains both 2-layer and 4-layer PCB designs.
+The KiCad project files for both PCB versions are included in the repository:
 
-### 2-Layer Design
-
-Located in:
-
-```text
-Kicad_2layer/
+- `Kicad_2layer/` — 2-layer PCB design
+- `Kicad_4layer/` — 4-layer PCB design
