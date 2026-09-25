@@ -108,7 +108,7 @@ The PCB was designed using KiCad with the components arranged for a compact sola
 
 An Interactive HTML BOM was generated using **InteractiveHtmlBom**.
 
-[Open Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/03_Solar_Power_Supply/BOM/Solar%20Power%20Supply_ibom.html)
+[Open Interactive BOM](https://reon-02.github.io/PCB-Design-with-KiCad-Udemy/03_Solar_Power_Supply/BOM/Solar_Power_Supply_ibom.html)
 
 The Interactive BOM provides:
 
