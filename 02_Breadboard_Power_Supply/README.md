@@ -39,6 +39,8 @@ The 12 V input is also supplied to the LM317 adjustable voltage regulator. A res
 
 An LED with a current-limiting resistor is used as a power indicator. The LED turns on when the board is powered.
 
+### Output connections
+
 The regulated 5 V and 3.3 V outputs are made available through dedicated connectors and screw terminals for connection to a breadboard or external circuit.
 
 ---
