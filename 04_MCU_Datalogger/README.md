@@ -46,15 +46,19 @@ The complete MCU Data Logger circuit was designed using KiCad.
 
 Two PCB implementations were developed for the project.
 
-### 2-Layer PCB
+### 2-Layer PCB — Without Ground Zone
 
 ![2-Layer PCB Layout](./Images/PCB_2layer_layout.png)
 
+### 2-Layer PCB — With Ground Zone
+
 ![2-Layer PCB with Ground Zone](./Images/PCB_2layer_zone_layer.png)
 
-### 4-Layer PCB
+### 4-Layer PCB — Without Ground Zone
 
 ![4-Layer PCB Layout](./Images/PCB_4layer_layout.png)
+
+### 4-Layer PCB — With Ground Zone
 
 ![4-Layer PCB with Ground Zone](./Images/PCB_4layer_zone_layout.png)
 
