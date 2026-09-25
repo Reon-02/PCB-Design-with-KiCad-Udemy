@@ -25,6 +25,16 @@ The basic circuit consists of:
 
 ---
 
+## Working Principle
+
+The battery provides the DC supply for the LED circuit. When the SPST switch is turned ON, current flows from the battery through the switch, current-limiting resistor, and LED.
+
+The resistor limits the current flowing through the LED to protect it from excessive current. The LED emits light when it is forward biased and current flows through it.
+
+When the switch is turned OFF, the circuit is open and current stops flowing, turning the LED off.
+
+---
+
 ## PCB Design
 
 The PCB was designed as a compact torch-shaped board with an integrated battery holder footprint.
