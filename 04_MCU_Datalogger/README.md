@@ -42,7 +42,7 @@ The complete MCU Data Logger circuit was designed using KiCad.
 
 ---
 
-## PCB Design
+## Layout Design
 
 Two PCB implementations were developed for the project.
 
