@@ -37,7 +37,7 @@ The repository contains projects ranging from a simple LED circuit to power supp
 ## Projects
 
 | No. | Project | Description | 
-|:---:|---|---|:---:|
+|:---:|---|---|---|
 | 01 | [LED Torch](./01_LED_Torch/) | Compact LED torch PCB |
 | 02 | [Breadboard Power Supply](./02_Breadboard_Power_Supply/) | 5 V / 3.3 V regulated power supply |
 | 03 | [Solar Power Supply](./03_Solar_Power_Supply/) | Solar-powered boost converter PCB | 
