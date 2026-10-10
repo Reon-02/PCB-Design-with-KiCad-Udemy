@@ -18,10 +18,7 @@ The design includes input protection, battery connection, power switching, boost
 - AP3015AKTR-G1 boost converter
 - Inductor-based DC-DC conversion
 - Output voltage feedback
-- Custom PCB layout
-- Ground plane
-- Interactive HTML BOM
-- Gerber generation and verification
+
 
 ---
 
