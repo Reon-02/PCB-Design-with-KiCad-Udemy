@@ -16,12 +16,6 @@ The PCB includes voltage regulation, a power indicator LED, output selection, br
 - Regulated 5 V output using LM7805
 - Regulated 3.3 V output using LM317
 - Selectable output connectors
-- Ground plane
-- Custom PCB layout
-- Through-hole component design
-- Interactive HTML BOM
-- Gerber generation and verification
-
 ---
 ## Working Principle
 
